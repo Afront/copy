@@ -2,5 +2,9 @@
 module Copy
   VERSION = "0.1.0"
 
-  # TODO: Put your code here
+  case ARGV.size
+  when 0
+  when 1
+  when 2
+  end
 end
