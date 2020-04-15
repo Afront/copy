@@ -7,6 +7,8 @@ module Copy
     end
 
     def copy(input_name : String, final_name : String)
+      File.open(input_name) do |file|
+      end
     end
   end
 
