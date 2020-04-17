@@ -6,9 +6,9 @@ module Copy
     def initialize
     end
 
-    def copy(input_name : String, final_name : String)
+    def copy(input_name : String, output_name : String)
       File.open(input_name) do |file|
-        File.open(final_name) do |file|
+        File.open(output_name) do |file|
         end
       end
     end
