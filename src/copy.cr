@@ -7,10 +7,8 @@ module Copy
     end
 
     def copy(input_name : String, output_name : String)
-      File.open(input_name) do |file|
-        File.open(output_name) do |file|
-        end
-      end
+      input_file = File.open(input_name, rb)
+      input_data = input_file.read
     end
   end
 
